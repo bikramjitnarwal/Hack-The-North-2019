@@ -20,4 +20,3 @@ setup(
     main = webapp:main
     """
 )
-
