@@ -9,6 +9,7 @@ prediction.setModelPath( r"C:\Users\Adrian\source\repos\just-your-feedback\resne
 prediction.loadModel()
 
 
+
 predictions, percentage_probabilities = prediction.predictImage(r"C:\Users\Adrian\Downloads\sample.jpg", result_count=5)
 for index in range(len(predictions)):
 	print(predictions[index] , " : " , percentage_probabilities[index])
